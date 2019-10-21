@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|VisualGDB">
+      <Configuration>Debug</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|VisualGDB">
+      <Configuration>Release</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{8FAE7D19-9DAA-4496-8657-FF3D78B4D768}</ProjectGuid>
+    <BSP_ID>KEIL:Keil/STM32F1xx_DFP</BSP_ID>
+    <BSP_VERSION>2.2.0</BSP_VERSION>
+    <InPlaceBSPSubdir />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <GNUConfigurationType>Debug</GNUConfigurationType>
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\Firmware_F103 V1.1\USER;..\..\..\..\Firmware_F103 V1.1\CORE;..\..\..\..\Firmware_F103 V1.1\STM32F10x_FWLib\inc;..\..\..\..\Firmware_F103 V1.1\SYSTEM\delay;..\..\..\..\Firmware_F103 V1.1\SYSTEM\sys;..\..\..\..\Firmware_F103 V1.1\SYSTEM\usart;..\..\..\..\Firmware_F103 V1.1\COMMON\interface;..\..\..\..\Firmware_F103 V1.1\COMMUNICATE\interface;..\..\..\..\Firmware_F103 V1.1\CONFIG\interface;..\..\..\..\Firmware_F103 V1.1\FreeRTOS\include;..\..\..\..\Firmware_F103 V1.1\FreeRTOS\portable\RVDS\ARM_CM3;..\..\..\..\Firmware_F103 V1.1\GUI_APP\interface;..\..\..\..\Firmware_F103 V1.1\GUI_DRV\interface;..\..\..\..\Firmware_F103 V1.1\HARDWARE\interface;..\..\..\..\Firmware_F103 V1.1\RTT;..\..\..\..\Firmware_F103 V1.1\USB\STM32_USB-FS-Device_Driver\inc;..\..\..\..\Firmware_F103 V1.1\USB\CONFIG;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STM32F10X_MD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\Firmware_F103 V1.1\USER;..\..\..\..\Firmware_F103 V1.1\CORE;..\..\..\..\Firmware_F103 V1.1\STM32F10x_FWLib\inc;..\..\..\..\Firmware_F103 V1.1\SYSTEM\delay;..\..\..\..\Firmware_F103 V1.1\SYSTEM\sys;..\..\..\..\Firmware_F103 V1.1\SYSTEM\usart;..\..\..\..\Firmware_F103 V1.1\COMMON\interface;..\..\..\..\Firmware_F103 V1.1\COMMUNICATE\interface;..\..\..\..\Firmware_F103 V1.1\CONFIG\interface;..\..\..\..\Firmware_F103 V1.1\FreeRTOS\include;..\..\..\..\Firmware_F103 V1.1\FreeRTOS\portable\RVDS\ARM_CM3;..\..\..\..\Firmware_F103 V1.1\GUI_APP\interface;..\..\..\..\Firmware_F103 V1.1\GUI_DRV\interface;..\..\..\..\Firmware_F103 V1.1\HARDWARE\interface;..\..\..\..\Firmware_F103 V1.1\RTT;..\..\..\..\Firmware_F103 V1.1\USB\STM32_USB-FS-Device_Driver\inc;..\..\..\..\Firmware_F103 V1.1\USB\CONFIG;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STM32F10X_MD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\USER\main.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\USER\stm32f10x_it.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\USER\system_stm32f10x.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\SYSTEM\delay\delay.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\SYSTEM\sys\sys.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\CONFIG\src\config_param.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\COMMUNICATE\src\atkp.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\COMMUNICATE\src\beep.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\COMMUNICATE\src\joystick.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\COMMUNICATE\src\keyTask.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\COMMUNICATE\src\radiolink.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\COMMUNICATE\src\remoter_ctrl.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\COMMUNICATE\src\usblink.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_APP\src\debug_ui.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_APP\src\display.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_APP\src\joystickCalib_ui.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_APP\src\main_ui.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_APP\src\match_ui.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_APP\src\menu_ui.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_APP\src\menuL1_item.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_APP\src\menuL2_item.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_APP\src\menuL3_item.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_APP\src\reset_ui.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_APP\src\trim_ui.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\COMMON\src\debug_assert.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\COMMON\src\freeRTOSdebug.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\HARDWARE\src\24l01.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\HARDWARE\src\adc.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\HARDWARE\src\key.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\HARDWARE\src\led.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\HARDWARE\src\oled.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\HARDWARE\src\stmflash.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_DRV\src\button.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_DRV\src\font.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_DRV\src\gui_basic.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_DRV\src\gui_menu.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_DRV\src\lcmdrv.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_DRV\src\messagebox.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_DRV\src\scrollbar.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_DRV\src\text.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\GUI_DRV\src\windows.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\FreeRTOS\list.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\FreeRTOS\queue.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\FreeRTOS\tasks.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\FreeRTOS\timers.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\FreeRTOS\portable\RVDS\ARM_CM3\port.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\FreeRTOS\portable\MemMang\heap_4.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\USB\CONFIG\hw_config.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\USB\CONFIG\usb_desc.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\USB\CONFIG\usb_endp.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\USB\CONFIG\usb_istr.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\USB\CONFIG\usb_prop.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\USB\CONFIG\usb_pwr.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\USB\STM32_USB-FS-Device_Driver\src\usb_core.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\USB\STM32_USB-FS-Device_Driver\src\usb_init.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\USB\STM32_USB-FS-Device_Driver\src\usb_int.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\USB\STM32_USB-FS-Device_Driver\src\usb_mem.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\USB\STM32_USB-FS-Device_Driver\src\usb_regs.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\USB\STM32_USB-FS-Device_Driver\src\usb_sil.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\STM32F10x_FWLib\src\misc.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\STM32F10x_FWLib\src\stm32f10x_gpio.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\STM32F10x_FWLib\src\stm32f10x_rcc.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\STM32F10x_FWLib\src\stm32f10x_usart.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\STM32F10x_FWLib\src\stm32f10x_adc.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\STM32F10x_FWLib\src\stm32f10x_spi.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\STM32F10x_FWLib\src\stm32f10x_exti.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\STM32F10x_FWLib\src\stm32f10x_dma.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\STM32F10x_FWLib\src\stm32f10x_flash.c" />
+    <ClCompile Include="..\..\..\..\Firmware_F103 V1.1\CORE\startup_stm32f10x_md.s" />
+    <None Include="mcu.props" />
+    <ClInclude Include="..\..\..\..\Firmware_F103 V1.1\CONFIG\interface\config_param.h" />
+    <ClInclude Include="..\..\..\..\Firmware_F103 V1.1\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h" />
+    <ClInclude Include="..\..\..\..\Firmware_F103 V1.1\USB\CONFIG\usb_conf.h" />
+    <None Include="..\..\..\..\Firmware_F103 V1.1\README.TXT" />
+    <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h" />
+    <None Include="MiniFlyRemoter-Debug.vgdbsettings" />
+    <None Include="MiniFlyRemoter-Release.vgdbsettings" />
+    <None Include="MCU.xml" />
+  </ItemGroup>
+</Project>
