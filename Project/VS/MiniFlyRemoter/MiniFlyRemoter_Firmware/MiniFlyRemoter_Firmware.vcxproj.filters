@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{56f8d31a-066b-48e1-9919-219dfd370067}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{fe66148d-b2d2-4c6e-826b-46d79c0e9a38}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{50854a27-1bdf-4b33-9558-f0dd31d5a756}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\USER">
+      <UniqueIdentifier>{93cea48d-b1ff-4db6-b219-0e57d8d6036e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\SYSTEM">
+      <UniqueIdentifier>{91703957-11db-41b0-ba0c-ad12c9a2b20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CONFIG">
+      <UniqueIdentifier>{c94b1893-1057-4157-a53c-dbb2b719de1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\COMMUNICATE">
+      <UniqueIdentifier>{9b88683c-e143-4a71-8a4f-fe68e570bcc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GUI_APP">
+      <UniqueIdentifier>{74c35609-36b8-4e71-86ff-ff0189f1d97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\COMMON">
+      <UniqueIdentifier>{3843520c-cf7c-4315-9ac2-dd0db77f291a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HARDWARE">
+      <UniqueIdentifier>{b2c6e405-71d6-4adb-a659-4c1c1d4558d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GUI_DRV">
+      <UniqueIdentifier>{8ee5caea-ebad-4742-8036-6a3df9c586bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FreeRTOS">
+      <UniqueIdentifier>{b1fac32c-3029-4cfe-b928-f2cb4d0ebb8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_CONFIG">
+      <UniqueIdentifier>{ba16bc45-675a-4ff3-a3ba-932ef9dd45a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_CORE">
+      <UniqueIdentifier>{81c73baf-0d64-4111-bc45-bb79ffc37229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FWLib">
+      <UniqueIdentifier>{0342f463-3f2b-4e35-ae7b-d1831a9866c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CORE">
+      <UniqueIdentifier>{c5c169ae-a7dd-4ad6-8918-ebee56c1ffd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\README">
+      <UniqueIdentifier>{9e901a23-b6e9-455f-8785-d3a08ce0afaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{065abf31-9f6d-45f1-8ddf-e119e0a46027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USER">
+      <UniqueIdentifier>{678d216d-5a08-49db-8817-76304bdec15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\SYSTEM">
+      <UniqueIdentifier>{fa3fede7-97a3-4146-9ff5-3ded76fa9869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CONFIG">
+      <UniqueIdentifier>{9d80864d-7867-4419-93c4-e9cc4d5a6a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\COMMUNICATE">
+      <UniqueIdentifier>{5fc6c11d-6aa2-4f9e-a15e-1d0dc9c8db34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\GUI_APP">
+      <UniqueIdentifier>{800fc1a3-43cd-47b6-a373-c80edbdc2095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\COMMON">
+      <UniqueIdentifier>{c4e08a35-9408-423b-95aa-b14270e3b859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HARDWARE">
+      <UniqueIdentifier>{f27cc852-ac40-452a-9089-38afa2e1a37b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\GUI_DRV">
+      <UniqueIdentifier>{1d299bfe-23b4-4090-853e-80d301590ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FreeRTOS">
+      <UniqueIdentifier>{0028b607-7f40-49f6-8bea-599fe1a12e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_CONFIG">
+      <UniqueIdentifier>{fa48a71c-710a-4d7c-9fae-482e22813532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_CORE">
+      <UniqueIdentifier>{035b63e0-5005-4ab1-b61c-4db625d899dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FWLib">
+      <UniqueIdentifier>{6aabd83c-8eac-4662-aacc-2b154700c133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CORE">
+      <UniqueIdentifier>{d93213f0-5036-45b6-a7b5-dc9f14b2dedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\README">
+      <UniqueIdentifier>{37cffbb8-01d7-48ea-8463-27b50c09aa87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{75f7c392-d219-40fd-a260-319cee983bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{f65009f1-4494-4435-af3f-cba9845f39d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\USER\main.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\USER\stm32f10x_it.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\USER\system_stm32f10x.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\SYSTEM\delay\delay.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\SYSTEM\sys\sys.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\CONFIG\src\config_param.c">
+      <Filter>Source files\CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\COMMUNICATE\src\atkp.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\COMMUNICATE\src\beep.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\COMMUNICATE\src\joystick.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\COMMUNICATE\src\keyTask.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\COMMUNICATE\src\radiolink.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\COMMUNICATE\src\remoter_ctrl.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\COMMUNICATE\src\usblink.c">
+      <Filter>Source files\COMMUNICATE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_APP\src\debug_ui.c">
+      <Filter>Source files\GUI_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_APP\src\display.c">
+      <Filter>Source files\GUI_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_APP\src\joystickCalib_ui.c">
+      <Filter>Source files\GUI_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_APP\src\main_ui.c">
+      <Filter>Source files\GUI_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_APP\src\match_ui.c">
+      <Filter>Source files\GUI_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_APP\src\menu_ui.c">
+      <Filter>Source files\GUI_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_APP\src\menuL1_item.c">
+      <Filter>Source files\GUI_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_APP\src\menuL2_item.c">
+      <Filter>Source files\GUI_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_APP\src\menuL3_item.c">
+      <Filter>Source files\GUI_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_APP\src\reset_ui.c">
+      <Filter>Source files\GUI_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_APP\src\trim_ui.c">
+      <Filter>Source files\GUI_APP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\COMMON\src\debug_assert.c">
+      <Filter>Source files\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\COMMON\src\freeRTOSdebug.c">
+      <Filter>Source files\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\HARDWARE\src\24l01.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\HARDWARE\src\adc.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\HARDWARE\src\key.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\HARDWARE\src\led.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\HARDWARE\src\oled.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\HARDWARE\src\stmflash.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_DRV\src\button.c">
+      <Filter>Source files\GUI_DRV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_DRV\src\font.c">
+      <Filter>Source files\GUI_DRV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_DRV\src\gui_basic.c">
+      <Filter>Source files\GUI_DRV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_DRV\src\gui_menu.c">
+      <Filter>Source files\GUI_DRV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_DRV\src\lcmdrv.c">
+      <Filter>Source files\GUI_DRV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_DRV\src\messagebox.c">
+      <Filter>Source files\GUI_DRV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_DRV\src\scrollbar.c">
+      <Filter>Source files\GUI_DRV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_DRV\src\text.c">
+      <Filter>Source files\GUI_DRV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\GUI_DRV\src\windows.c">
+      <Filter>Source files\GUI_DRV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\FreeRTOS\list.c">
+      <Filter>Source files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\FreeRTOS\queue.c">
+      <Filter>Source files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\FreeRTOS\tasks.c">
+      <Filter>Source files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\FreeRTOS\timers.c">
+      <Filter>Source files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\FreeRTOS\portable\RVDS\ARM_CM3\port.c">
+      <Filter>Source files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\FreeRTOS\portable\MemMang\heap_4.c">
+      <Filter>Source files\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\USB\CONFIG\hw_config.c">
+      <Filter>Source files\USB_CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\USB\CONFIG\usb_desc.c">
+      <Filter>Source files\USB_CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\USB\CONFIG\usb_endp.c">
+      <Filter>Source files\USB_CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\USB\CONFIG\usb_istr.c">
+      <Filter>Source files\USB_CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\USB\CONFIG\usb_prop.c">
+      <Filter>Source files\USB_CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\USB\CONFIG\usb_pwr.c">
+      <Filter>Source files\USB_CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_core.c">
+      <Filter>Source files\USB_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_init.c">
+      <Filter>Source files\USB_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_int.c">
+      <Filter>Source files\USB_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_mem.c">
+      <Filter>Source files\USB_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_regs.c">
+      <Filter>Source files\USB_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_sil.c">
+      <Filter>Source files\USB_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\STM32F10x_FWLib\src\misc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_gpio.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_rcc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_usart.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_adc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_spi.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_exti.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_dma.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_flash.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Firmware_F103_V1_1\CORE\startup_stm32f10x_md.s">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
+    <None Include="mcu.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClInclude Include="..\..\..\..\Firmware_F103_V1_1\CONFIG\interface\config_param.h">
+      <Filter>Header files\CONFIG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Firmware_F103_V1_1\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h">
+      <Filter>Header files\FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Firmware_F103_V1_1\USB\CONFIG\usb_conf.h">
+      <Filter>Header files\USB_CONFIG</Filter>
+    </ClInclude>
+    <None Include="..\..\..\..\Firmware_F103_V1_1\README.TXT">
+      <Filter>Header files\README</Filter>
+    </None>
+    <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <None Include="MiniFlyRemoter_Firmware-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="MiniFlyRemoter_Firmware-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="MCU.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>

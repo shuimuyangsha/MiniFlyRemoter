@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|VisualGDB">
+      <Configuration>Debug</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|VisualGDB">
+      <Configuration>Release</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A7A17EE8-DD58-41D0-97D0-53403185C03B}</ProjectGuid>
+    <BSP_ID>KEIL:Keil/STM32F1xx_DFP</BSP_ID>
+    <BSP_VERSION>2.2.0</BSP_VERSION>
+    <InPlaceBSPSubdir />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <GNUConfigurationType>Debug</GNUConfigurationType>
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\Bootloader_F103_V1_1\USER;..\..\..\..\Bootloader_F103_V1_1\CORE;..\..\..\..\Bootloader_F103_V1_1\STM32F10x_FWLib\inc;..\..\..\..\Bootloader_F103_V1_1\SYSTEM\delay;..\..\..\..\Bootloader_F103_V1_1\SYSTEM\sys;..\..\..\..\Bootloader_F103_V1_1\SYSTEM\usart;..\..\..\..\Bootloader_F103_V1_1\HARDWARE\LED;..\..\..\..\Bootloader_F103_V1_1\HARDWARE\KEY;..\..\..\..\Bootloader_F103_V1_1\HARDWARE\STMFLASH;..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG;..\..\..\..\Bootloader_F103_V1_1\USB\STM32_USB-FS-Device_Driver\inc;..\..\..\..\Bootloader_F103_V1_1\IAP;..\..\..\..\Bootloader_F103_V1_1\PROTOCOL;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STM32F10X_MD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>--C99 </AdditionalOptions>
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+      <Optimization>O2</Optimization>
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <ROMBase>
+      </ROMBase>
+      <AdditionalOptions />
+      <KeilCLibraryType>Microlib</KeilCLibraryType>
+    </Link>
+    <KeilSettingsContainer>
+      <KeilCPUType>Cortex-M3</KeilCPUType>
+      <ARMCPU>
+      </ARMCPU>
+      <KeilCLibraryType>Microlib</KeilCLibraryType>
+    </KeilSettingsContainer>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\Bootloader_F103_V1_1\USER;..\..\..\..\Bootloader_F103_V1_1\CORE;..\..\..\..\Bootloader_F103_V1_1\STM32F10x_FWLib\inc;..\..\..\..\Bootloader_F103_V1_1\SYSTEM\delay;..\..\..\..\Bootloader_F103_V1_1\SYSTEM\sys;..\..\..\..\Bootloader_F103_V1_1\SYSTEM\usart;..\..\..\..\Bootloader_F103_V1_1\HARDWARE\LED;..\..\..\..\Bootloader_F103_V1_1\HARDWARE\KEY;..\..\..\..\Bootloader_F103_V1_1\HARDWARE\STMFLASH;..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG;..\..\..\..\Bootloader_F103_V1_1\USB\STM32_USB-FS-Device_Driver\inc;..\..\..\..\Bootloader_F103_V1_1\IAP;..\..\..\..\Bootloader_F103_V1_1\PROTOCOL;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STM32F10X_MD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USER\main.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USER\stm32f10x_it.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USER\system_stm32f10x.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\CORE\startup_stm32f10x_md.s" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\SYSTEM\delay\delay.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\SYSTEM\sys\sys.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\SYSTEM\usart\usart.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\HARDWARE\LED\led.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\HARDWARE\KEY\key.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\HARDWARE\STMFLASH\stmflash.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\STM32F10x_FWLib\src\misc.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_gpio.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_rcc.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_usart.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_exti.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_flash.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\IAP\iap.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\PROTOCOL\check.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\PROTOCOL\protocol.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG\hw_config.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG\usb_desc.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG\usb_endp.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG\usb_istr.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG\usb_prop.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG\usb_pwr.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_core.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_init.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_int.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_mem.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_regs.c" />
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_sil.c" />
+    <None Include="mcu.props" />
+    <ClInclude Include="..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG\usb_conf.h" />
+    <None Include="..\..\..\..\Bootloader_F103_V1_1\README.TXT" />
+    <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h" />
+    <None Include="Bootloader_F103_V1_1-Debug.vgdbsettings" />
+    <None Include="Bootloader_F103_V1_1-Release.vgdbsettings" />
+    <None Include="MCU.xml" />
+  </ItemGroup>
+</Project>

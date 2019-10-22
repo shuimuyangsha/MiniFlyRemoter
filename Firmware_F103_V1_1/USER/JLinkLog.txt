@@ -1,0 +1,48 @@
+T5168 344:347 SEGGER J-Link V6.46g Log File (0001ms, 1837ms total)
+T5168 344:347 DLL Compiled: Jun 14 2019 19:33:33 (0001ms, 1837ms total)
+T5168 344:347 Logging started @ 2019-10-22 18:21 (0001ms, 1837ms total)
+T5168 344:348 JLINK_SetWarnOutHandler(...) (0000ms, 1837ms total)
+T5168 344:348 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled May 17 2019 09:50:41
+Hardware: V9.40
+S/N: 59425868
+Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash, RDDI
+TELNET listener socket opened on port 19021WEBSRV 
+Starting webserver (0053ms, 1890ms total)
+T5168 344:348 WEBSRV Webserver running on local port 19080 (0054ms, 1891ms total)
+T5168 344:348   returns O.K. (0054ms, 1891ms total)
+T5168 344:402 JLINK_SetErrorOutHandler(...) (0000ms, 1891ms total)
+T5168 344:402 JLINK_ExecCommand("ProjectFile = "E:\VS_GDB\ARM\testF103\MiniFlyRemoter\Firmware_F103_V1_1\USER\JLinkSettings.ini"", ...).   returns 0x00 (0020ms, 1911ms total)
+T5168 344:422 JLINK_ExecCommand("Device = STM32F103C8", ...). Device "STM32F103C8" selected.  returns 0x00 (0002ms, 1913ms total)
+T5168 344:424 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 1913ms total)
+T5168 344:424 JLINK_GetHardwareVersion()  returns 0x16F30 (0000ms, 1913ms total)
+T5168 344:424 JLINK_GetDLLVersion()  returns 64607 (0000ms, 1913ms total)
+T5168 344:424 JLINK_GetFirmwareString(...) (0000ms, 1913ms total)
+T5168 344:424 JLINK_GetDLLVersion()  returns 64607 (0000ms, 1913ms total)
+T5168 344:424 JLINK_GetCompileDateTime() (0000ms, 1913ms total)
+T5168 344:424 JLINK_GetFirmwareString(...) (0000ms, 1913ms total)
+T5168 344:424 JLINK_GetHardwareVersion()  returns 0x16F30 (0000ms, 1913ms total)
+T5168 344:424 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 1914ms total)
+T5168 344:425 JLINK_SetSpeed(10000) (0000ms, 1914ms total)
+T5168 344:426 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 1914ms total)
+T5168 344:426 JLINK_Reset() >0x10B TIF>Found SW-DP with ID 0x1BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF>
+ >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x10B TIF>Found SW-DP with ID 0x1BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF>Scanning AP map to find all available APs >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF>
+ >0x0D TIF> >0x21 TIF>AP[1]: Stopped AP scan as end of AP map has been reachedAP[0]: AHB-AP (IDR: 0x14770011)Iterating through AP map to find AHB-AP to use >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>AP[0]: Core foundAP[0]: AHB-AP ROM base: 0xE00FF000 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF>
+ >0x21 TIF>CPUID register: 0x411FC231. Implementer code: 0x41 (ARM)Found Cortex-M3 r1p1, Little endian. -- Max. mem block: 0x00010F28 -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE0002000)FPUnit: 6 code (BP) slots and 2 literal slots -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000) -- CPU_ReadMem(4 bytes @ 0xE000ED88)
+ -- CPU_WriteMem(4 bytes @ 0xE000ED88) -- CPU_ReadMem(4 bytes @ 0xE000ED88) -- CPU_WriteMem(4 bytes @ 0xE000ED88)CoreSight components:ROMTbl[0] @ E00FF000 -- CPU_ReadMem(16 bytes @ 0xE00FF000) -- CPU_ReadMem(16 bytes @ 0xE000EFF0) -- CPU_ReadMem(16 bytes @ 0xE000EFE0)ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 001BB000 SCS -- CPU_ReadMem(16 bytes @ 0xE0001FF0) -- CPU_ReadMem(16 bytes @ 0xE0001FE0)ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 001BB002 DWT -- CPU_ReadMem(16 bytes @ 0xE0002FF0)
+ -- CPU_ReadMem(16 bytes @ 0xE0002FE0)ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 000BB003 FPB -- CPU_ReadMem(16 bytes @ 0xE0000FF0) -- CPU_ReadMem(16 bytes @ 0xE0000FE0)ROMTbl[0][3]: E0000000, CID: B105E00D, PID: 001BB001 ITM -- CPU_ReadMem(16 bytes @ 0xE00FF010) -- CPU_ReadMem(16 bytes @ 0xE0040FF0) -- CPU_ReadMem(16 bytes @ 0xE0040FE0)ROMTbl[0][4]: E0040000, CID: B105900D, PID: 001BB923 TPIU-Lite -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDFC)Reset: Halt core after reset via DEMCR.VC_CORERESET. >0x35 TIF>Reset: Reset device via AIRCR.SYSRESETREQ. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) >0x0D TIF> >0x28 TIF> -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000)
+ -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) (0205ms, 2119ms total)
+T5168 344:631 JLINK_GetId() >0x0D TIF> >0x21 TIF>  returns 0x1BA01477 (0001ms, 2120ms total)
+T5168 344:636 JLINK_GetFirmwareString(...) (0000ms, 2120ms total)
+
+                  JLINK_RTTERMINAL_Control(Cmd = JLINKARM_RTTERMINAL_CMD_STOP)  returns 0x01 (0000ms, 0000ms total)
+                JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)  returns 0x00 (0000ms, 0000ms total)
+                JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)  returns 0x00 (0002ms, 0002ms total)
+                JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)  returns 0x00 (0000ms, 0000ms total)
+              JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)  returns 0x00 (0000ms, 2491ms total)
+T5168 357:582 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)  returns 0x00 (0000ms, 2491ms total)
+T5168 357:582 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)  returns 0x00 (0001ms, 2492ms total)
+T5168 393:803 JLINK_Close() -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001004) >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> (0011ms, 2534ms total)
+T5168 393:803  (0011ms, 2534ms total)
+T5168 393:803 Closed (0011ms, 2534ms total)

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{cd07ba5f-fbd4-46bf-b470-59f3f13d0106}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{48d2978b-dcd1-4a16-9222-b7b338054ff1}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{97131622-5cf1-4fbf-ac67-751dcc76eb3e}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\USER">
+      <UniqueIdentifier>{79194613-ff9e-44b8-9728-f4a46c7cbbf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CORE">
+      <UniqueIdentifier>{e852992b-de51-4e12-9abf-3d82c0f31706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\SYSTEM">
+      <UniqueIdentifier>{2fb82ef7-15e3-4213-a0e8-a7ede701d1c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HARDWARE">
+      <UniqueIdentifier>{9a12dc6a-8657-4d22-bbab-6a9227b1957e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FWLib">
+      <UniqueIdentifier>{e82cef7d-a922-462f-b0d3-b11d24e6ead1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IAP">
+      <UniqueIdentifier>{aa559979-f2a2-4ece-bbda-3e0c836766b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\PROTOCOL">
+      <UniqueIdentifier>{e366f887-0704-4380-afc9-5d4d6b8b377c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_CONFIG">
+      <UniqueIdentifier>{204c4e06-ccce-45ba-8f1c-8ac3bb15cf93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_CORE">
+      <UniqueIdentifier>{ba36ca06-eb0d-4c0e-a533-02e7c0ac39ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\README">
+      <UniqueIdentifier>{683a6fc7-be59-43cf-a838-b4e7398f8700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{efc92549-a26d-497e-98b1-5fc01659fd7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USER">
+      <UniqueIdentifier>{94a34b74-887b-4096-b8fe-79bb59824088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CORE">
+      <UniqueIdentifier>{0bab4658-738e-4dcb-a8d3-655bfcf9aa6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\SYSTEM">
+      <UniqueIdentifier>{523b9c59-cd93-4ab2-9dfd-f188a81d92dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HARDWARE">
+      <UniqueIdentifier>{4de805f4-fb77-4021-8ccb-66712753edec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FWLib">
+      <UniqueIdentifier>{121be730-6883-4953-adf1-348fa1715847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IAP">
+      <UniqueIdentifier>{f91b9273-9b6d-4c25-970e-8010e82b0b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\PROTOCOL">
+      <UniqueIdentifier>{c736b1e6-13b1-4e70-853f-2273ee9ef5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_CONFIG">
+      <UniqueIdentifier>{1d421a79-62cc-4dc0-bae5-a4e7c44533d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_CORE">
+      <UniqueIdentifier>{5014f071-11e1-41ac-a5f2-b04ce4debcf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\README">
+      <UniqueIdentifier>{aa0ded6f-0e44-4cb5-b8a0-0b4da919ad42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{b95341ad-2d48-45ea-85b0-a1fe6bad22da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{28b437a6-ee22-4cb6-82c0-8fecc7d0d0bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USER\main.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USER\stm32f10x_it.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USER\system_stm32f10x.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\CORE\startup_stm32f10x_md.s">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\SYSTEM\delay\delay.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\SYSTEM\sys\sys.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\SYSTEM\usart\usart.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\HARDWARE\LED\led.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\HARDWARE\KEY\key.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\HARDWARE\STMFLASH\stmflash.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\STM32F10x_FWLib\src\misc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_gpio.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_rcc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_usart.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_exti.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\STM32F10x_FWLib\src\stm32f10x_flash.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\IAP\iap.c">
+      <Filter>Source files\IAP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\PROTOCOL\check.c">
+      <Filter>Source files\PROTOCOL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\PROTOCOL\protocol.c">
+      <Filter>Source files\PROTOCOL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG\hw_config.c">
+      <Filter>Source files\USB_CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG\usb_desc.c">
+      <Filter>Source files\USB_CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG\usb_endp.c">
+      <Filter>Source files\USB_CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG\usb_istr.c">
+      <Filter>Source files\USB_CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG\usb_prop.c">
+      <Filter>Source files\USB_CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG\usb_pwr.c">
+      <Filter>Source files\USB_CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_core.c">
+      <Filter>Source files\USB_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_init.c">
+      <Filter>Source files\USB_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_int.c">
+      <Filter>Source files\USB_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_mem.c">
+      <Filter>Source files\USB_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_regs.c">
+      <Filter>Source files\USB_CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bootloader_F103_V1_1\USB\STM32_USB-FS-Device_Driver\src\usb_sil.c">
+      <Filter>Source files\USB_CORE</Filter>
+    </ClCompile>
+    <None Include="mcu.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClInclude Include="..\..\..\..\Bootloader_F103_V1_1\USB\CONFIG\usb_conf.h">
+      <Filter>Header files\USB_CONFIG</Filter>
+    </ClInclude>
+    <None Include="..\..\..\..\Bootloader_F103_V1_1\README.TXT">
+      <Filter>Header files\README</Filter>
+    </None>
+    <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <None Include="Bootloader_F103_V1_1-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="Bootloader_F103_V1_1-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="MCU.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>

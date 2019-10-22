@@ -1,4 +1,10 @@
-Project/VS/MiniFlyRemoter/MiniFlyRemoter/VisualGDB/Debug/
+Project/VS/MiniFlyRemoter/MiniFlyRemoter_Firmware/VisualGDB/Debug/
 Project/VS/MiniFlyRemoter/VisualGDB/Debug/
 Project/VS/MiniFlyRemoter/.vs
-OBJ/
+
+Project/VS/MiniFlyRemoter/Bootloader_F103_V1_1/VisualGDB/Debug/
+
+
+Firmware_F103_V1_1/OBJ/
+Bootloader_F103_V1_1/OBJ/
+
